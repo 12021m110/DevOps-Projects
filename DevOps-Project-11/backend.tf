@@ -3,7 +3,7 @@ terraform {
     bucket         = "my-ews-baket1"
     region         = "us-east-1"
     key            = "Project11/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+    dynamodb_table = "Lock_Files"
     encrypt        = true
   }
   required_version = ">=0.13.0"
